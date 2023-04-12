@@ -44,7 +44,6 @@ const TestiMonials = () => {
 		items: 2,
 		margin: 0,
 		autoplay: false,
-		dots: true,
 		autoplayTimeout: 8500,
 		smartSpeed: 450,
 		nav: false,

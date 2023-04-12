@@ -15,6 +15,7 @@ import Team from "./components/Team";
 import ReactGA from "react-ga";
 import TestiMonials from "./components/Testimonial/TestiMonials/TestiMonials";
 import Partner from "./components/Partner";
+import Testimonial from "./components/Testimoni/Testimonial";
 
 function App() {
 	const TRACKING_ID = "UA-241660133-3";
@@ -85,7 +86,7 @@ function App() {
 			<Ourwork />
 			<Team />
 			<Partner />
-			<TestiMonials />
+			<Testimonial />
 			<Services
 				sub={"How can we help you?"}
 				heading={"FAQs"}
@@ -93,7 +94,6 @@ function App() {
 				toggleData={toggleFaqData}
 			/>
 			<ContactUs />
-
 			<Footer />
 		</>
 	);
