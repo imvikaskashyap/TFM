@@ -141,11 +141,15 @@
 	}
 
 	.card__text {
-		margin-bottom: 76px;
+		margin-bottom: 74px;
 		font-size: 11px;
 	}
 
 	.start {
 		margin-top: -7px;
+	}
+
+	.card_description {
+		font-size: 11px;
 	}
 }
