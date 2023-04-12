@@ -132,6 +132,7 @@
 
 @media (max-width: 450px) {
 	.sectionTitle {
+		margin-top: -29px;
 		font-size: 32px;
 	}
 
