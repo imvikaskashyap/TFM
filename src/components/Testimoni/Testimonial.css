@@ -153,3 +153,19 @@
 		font-size: 11px;
 	}
 }
+
+@media (min-width: 451px) and (max-width: 767px) {
+	.sectionTitle {
+		margin-top: -29px;
+		font-size: 32px;
+	}
+
+	.miniTitle {
+		font-size: 11px;
+	}
+
+	.card__text {
+		margin-bottom: 70px;
+		font-size: 13px;
+	}
+}
