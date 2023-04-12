@@ -129,3 +129,22 @@
 .swiper-pagination-bullet-active {
 	opacity: 1; /* specify the opacity of the active dot */
 }
+
+@media (max-width: 450px) {
+	.sectionTitle {
+		font-size: 32px;
+	}
+
+	.miniTitle {
+		font-size: 11px;
+	}
+
+	.card__text {
+		margin-bottom: 76px;
+		font-size: 11px;
+	}
+
+	.start {
+		margin-top: -7px;
+	}
+}
