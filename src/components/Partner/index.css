@@ -52,13 +52,26 @@
 }
 
 .logo_container {
+	/* overflow-x: auto;  Use "auto" to show the scrollbar only when necessary */
+	/* height: 60vh; */
 	margin: 7% 1%;
 	padding: 0 19%;
 	display: flex;
 	flex-wrap: wrap;
+	/* flex-flow: row; */
 	align-items: center;
 	justify-content: space-between;
 	width: 99%;
+	flex-direction: row; /* Add this property to enable horizontal scrolling */
+}
+
+.image {
+	flex: 0 0 auto; /* Ensure each image takes up its own space */
+	margin-right: 10px; /* Add some spacing between the images */
+}
+
+.image:last-child {
+	margin-right: 0; /* Remove margin-right from the last image to prevent overflow */
 }
 
 .image img {
@@ -69,6 +82,7 @@
 	object-fit: contain;
 	background: #2a2a30;
 }
+
 /* .image img {
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
