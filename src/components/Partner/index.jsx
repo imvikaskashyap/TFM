@@ -52,11 +52,11 @@ export default function index() {
 						<img src={L6} alt="logo" />
 					</a>
 				</div>
-				<div className="image">
+				{/* <div className="image">
 					<a href="https://www.wallpaperworld.co.in/" target={"_blank"}>
 						<img src={L7} alt="logo" />
 					</a>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
