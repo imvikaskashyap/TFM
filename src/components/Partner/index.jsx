@@ -8,6 +8,7 @@ import L4 from "../../assets/partner_logo/logo hcdc.png";
 import L5 from "../../assets/partner_logo/Olip Lighting Logo.png";
 import L6 from "../../assets/partner_logo/Etsy_Profile_Image-removebg-preview.png";
 import L7 from "../../assets/partner_logo/WW_logo-removebg-preview.png";
+import L8 from "../../assets/Life_methods-removebg-preview.png";
 
 import "./index.css";
 import Line from "../Line";
@@ -25,13 +26,13 @@ export default function index() {
 				</div>
 
 				<div className="image">
-					<a href="#" target={"_blank"}>
+					<a >
 						<img src={L2} alt="logo" />
 					</a>
 				</div>
 
 				<div className="image">
-					<a href="https://www.lifemethods.in/" target={"_blank"}>
+					<a href="https://www.figma.com/file/nYOQtDQJiKdP3mWGtVfUOm/Business-Card-mockup-(The-Fuel-Media)?node-id=0-1&t=HDdcCxn0VM8cmfmh-0" target={"_blank"}>
 						<img src={L3} alt="logo" />
 					</a>
 				</div>
@@ -43,7 +44,7 @@ export default function index() {
 				</div>
 
 				<div className="image">
-					<a href="https://www.lifemethods.in/" target={"_blank"}>
+					<a >
 						<img src={L5} alt="logo" />
 					</a>
 				</div>
@@ -58,6 +59,11 @@ export default function index() {
 						<img src={L7} alt="logo" />
 					</a>
 				</div>
+				<div className="image">
+					<a href="https://www.lifemethods.in/" target={"_blank"}>
+						<img src={L8} alt="logo" />
+					</a>
+				</div>
 			</div>
 			<div className="logo_container_landscape">
 				<div className="logo_container_upper">
@@ -68,31 +74,13 @@ export default function index() {
 					</div>
 
 					<div className="image">
-						<a href="#" target={"_blank"}>
+						<a >
 							<img src={L2} alt="logo" />
 						</a>
 					</div>
 
-					<div className="image">
-						<a href="https://www.cancrie.co/" target={"_blank"}>
-							<img src={L6} alt="logo" />
-						</a>
-					</div>
-					<div className="image">
-						<a href="https://www.wallpaperworld.co.in/" target={"_blank"}>
-							<img src={L7} alt="logo" />
-						</a>
-					</div>
-				</div>
-
-				<div className="logo_container_lower">
 					<div className="image_lower">
-						<a>
-							<img src={L5} alt="logo" />
-						</a>
-					</div>
-					<div className="image_lower">
-						<a href="https://www.lifemethods.in/" target={"_blank"}>
+						<a href="https://www.figma.com/file/nYOQtDQJiKdP3mWGtVfUOm/Business-Card-mockup-(The-Fuel-Media)?node-id=0-1&t=HDdcCxn0VM8cmfmh-0" target={"_blank"}>
 							<img src={L3} alt="logo" />
 						</a>
 					</div>
@@ -102,8 +90,36 @@ export default function index() {
 							<img src={L4} alt="logo" />
 						</a>
 					</div>
+
+					
+				</div>
+
+				<div className="logo_container_lower">
+					<div className="image_lower">
+						<a>
+							<img src={L5} alt="logo" />
+						</a>
+					</div>
+
+					<div className="image">
+						<a href="https://www.cancrie.co/" target={"_blank"}>
+							<img src={L6} alt="logo" />
+						</a>
+					</div>
+					<div className="image">
+						<a href="https://www.wallpaperworld.co.in/" target={"_blank"} >
+							<img src={L7} alt="logo" />
+						</a>
+					</div>
+					<div className="image">
+						<a href="https://www.lifemethods.in/" target={"_blank"}>
+							<img src={L8} alt="logo" />
+						</a>
+					</div>
+					
 				</div>
 			</div>
 		</div>
 	);
 }
+
