@@ -143,6 +143,7 @@
 	.image img {
 		width: 100px;
 		margin-bottom: 10px;
+		height: 111px;
 	}
 	.filter_container {
 		font-size: 8px;
@@ -176,6 +177,7 @@
 	.image img {
 		width: 123px;
 		margin-bottom: 20px;
+		height: 111px;
 	}
 	.filter_container {
 		font-size: 11px;
@@ -217,6 +219,7 @@
 	.image img {
 		width: 140px;
 		margin-bottom: 20px;
+		height: 125px;
 	}
 	.filter_container {
 		font-size: 11px;
