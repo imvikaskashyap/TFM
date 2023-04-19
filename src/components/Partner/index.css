@@ -53,8 +53,8 @@
 
 .logo_container {
 	display: none;
-	overflow-x: auto;
-	height: 60vh;
+	/* overflow-x: auto; */
+	/* height: 60vh; */
 	margin: 5% 1%;
 	padding: 0 19%;
 	/* display: flex; */
@@ -87,15 +87,15 @@
 
 .image {
 	/* flex: 0 0 auto; Ensure each image takes up its own space */
-	margin-right: 10px; /* Add some spacing between the images */
+	margin-right: 10px;
 }
 .image_lower {
 	margin-right: 10px;
 }
 
-.image:last-child {
-	margin-right: 0; /* Remove margin-right from the last image to prevent overflow */
-}
+/* .image:last-child {
+	margin-right: 0; 
+} */
 
 .image img {
 	width: 202px;
@@ -126,7 +126,40 @@
 	filter: none;
 	transition: 3s ease;
 } */
-@media screen and (max-width: 379px) {
+@media screen and (max-width: 359px) {
+	.logo_container_landscape {
+		display: none;
+	}
+	.logo_container {
+		display: flex;
+		margin: 12% 12%;
+		width: 76%;
+		padding: 0 2%;
+	}
+
+	.Team__container {
+		flex-direction: column;
+	}
+	.image img {
+		width: 100px;
+		margin-bottom: 10px;
+		height: 111px;
+	}
+	.filter_container {
+		font-size: 8px;
+		padding: 1% 6%;
+	}
+
+	.main_container h1 {
+		font-size: 32px;
+	}
+
+	.main_container p {
+		font-size: 11px;
+		margin-bottom: 17px;
+	}
+}
+@media (min-width: 360px) and (max-width: 379px) {
 	.logo_container_landscape {
 		display: none;
 	}
@@ -308,4 +341,3 @@
 		padding: 0 11%;
 	}
 } */
-
