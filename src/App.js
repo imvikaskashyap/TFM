@@ -13,9 +13,8 @@ import mainVideo from "./assets/Main.mp4";
 import mainImage from "./assets/main.png";
 import Team from "./components/Team";
 import ReactGA from "react-ga";
-import TestiMonials from "./components/Testimonial/TestiMonials/TestiMonials";
+import Testimonial from "./components/Testimonial/Testimonial";
 import Partner from "./components/Partner";
-import Testimonial from "./components/Testimoni/Testimonial";
 
 function App() {
 	const TRACKING_ID = "UA-241660133-3";

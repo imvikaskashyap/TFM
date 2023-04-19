@@ -52,22 +52,45 @@
 }
 
 .logo_container {
-	/* overflow-x: auto;  Use "auto" to show the scrollbar only when necessary */
-	/* height: 60vh; */
-	margin: 7% 1%;
+	display: none;
+	overflow-x: auto;
+	height: 60vh;
+	margin: 5% 1%;
 	padding: 0 19%;
-	display: flex;
+	/* display: flex; */
 	flex-wrap: wrap;
 	/* flex-flow: row; */
 	align-items: center;
 	justify-content: space-between;
 	width: 99%;
-	flex-direction: row; /* Add this property to enable horizontal scrolling */
+	/* flex-direction: row; Add this property to enable horizontal scrolling */
+}
+.logo_container_landscape {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 5% 1%;
+	padding: 0 19%;
+}
+
+.logo_container_upper {
+	display: flex;
+}
+.logo_container_lower {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	/* margin-left: 9%; */
+	margin-top: -10px;
 }
 
 .image {
-	flex: 0 0 auto; /* Ensure each image takes up its own space */
+	/* flex: 0 0 auto; Ensure each image takes up its own space */
 	margin-right: 10px; /* Add some spacing between the images */
+}
+.image_lower {
+	margin-right: 10px;
 }
 
 .image:last-child {
@@ -75,6 +98,14 @@
 }
 
 .image img {
+	width: 202px;
+	height: 152px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	object-fit: contain;
+	background: #2a2a30;
+}
+.image_lower img {
 	width: 202px;
 	height: 152px;
 	margin-bottom: 20px;
@@ -95,10 +126,15 @@
 	filter: none;
 	transition: 3s ease;
 } */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 379px) {
+	.logo_container_landscape {
+		display: none;
+	}
 	.logo_container {
+		display: flex;
 		margin: 12% 12%;
 		width: 76%;
+		padding: 0 7%;
 	}
 
 	.Team__container {
@@ -113,9 +149,6 @@
 		padding: 1% 6%;
 	}
 
-	.logo_container {
-		padding: 0;
-	}
 	.main_container h1 {
 		font-size: 32px;
 	}
@@ -126,11 +159,15 @@
 	}
 }
 
-@media (min-width: 321px) and (max-width: 480px) {
+@media (min-width: 380px) and (max-width: 480px) {
+	.logo_container_landscape {
+		display: none;
+	}
 	.logo_container {
+		display: flex;
 		margin: 17% 12% 12% 12%;
 		width: 81%;
-		padding: 0 3%;
+		padding: 0 6%;
 	}
 
 	.Team__container {
@@ -152,9 +189,20 @@
 		font-size: 11px;
 		margin-bottom: 17px;
 	}
+
+	.logo_container_upper {
+		display: column;
+	}
+	.logo_container_lower {
+		display: column;
+	}
 }
 @media (min-width: 481px) and (max-width: 767px) {
+	.logo_container_landscape {
+		display: none;
+	}
 	.logo_container {
+		display: flex;
 		margin: 8% 0%;
 		/* width: 76%; */
 	}
@@ -182,17 +230,30 @@
 @media (min-width: 767px) and (max-width: 891px) {
 	.image {
 		display: inline-block;
-		width: 33%;
+		width: 24%;
 		height: auto;
 		object-position: bottom;
 	}
+	/* .image_lower {
+		display: inline-block;
+		width: 24%;
+		height: auto;
+		object-position: bottom;
+	} */
 
 	.image img {
 		margin-bottom: 20px;
+		width: 161px;
+		height: 152px;
+	}
+	.image_lower img {
+		margin-bottom: 20px;
+		width: 161px;
+		height: 152px;
 	}
 
 	.logo_container {
-		/* padding: 0 9%; */
+		display: none;
 		margin: 7% 4%;
 		padding: 0 8%;
 	}
@@ -205,6 +266,9 @@
 		font-size: 15px;
 		padding: 1% 15%;
 	}
+	.logo_container_lower {
+		/* margin-left: 3%; */
+	}
 }
 
 /* @media (max-width: 1279px) {
@@ -213,8 +277,17 @@
 		padding: 0 19%;
 	}
 } */
+
+@media (min-width: 891px) and (max-width: 1421px) {
+	.logo_container {
+		/* display: none; */
+		margin: 7% 1%;
+		padding: 0 27%;
+	}
+}
 @media (min-width: 1422px) {
 	.logo_container {
+		/* display: none; */
 		margin: 7% 1%;
 		padding: 0 27%;
 	}

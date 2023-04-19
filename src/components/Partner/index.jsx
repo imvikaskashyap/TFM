@@ -13,50 +13,96 @@ import "./index.css";
 import Line from "../Line";
 export default function index() {
 	return (
-		<div className="main_container">
+		<div className="main_container" id="client">
 			<p>Awesome people we work with</p>
 			<h1>Our Clientele</h1>
 			<Line />
 			<div className="logo_container">
 				<div className="image">
-					<a to="https://www.lifemethods.in/" target={"_blank"}>
+					<a href="https://damanteperfumes.com/" target={"_blank"}>
 						<img src={L1} alt="logo" />
 					</a>
 				</div>
 
 				<div className="image">
-					<a to="#" target={"_blank"}>
+					<a href="#" target={"_blank"}>
 						<img src={L2} alt="logo" />
 					</a>
 				</div>
 
 				<div className="image">
-					<a to="https://www.lifemethods.in/" target={"_blank"}>
+					<a href="https://www.lifemethods.in/" target={"_blank"}>
 						<img src={L3} alt="logo" />
 					</a>
 				</div>
 
 				<div className="image">
-					<a to="https://www.thefuelmedia.co/" target={"_blank"}>
+					<a href="https://www.thefuelmedia.co/" target={"_blank"}>
 						<img src={L4} alt="logo" />
 					</a>
 				</div>
+
 				<div className="image">
-					<a to="https://www.lifemethods.in/" target={"_blank"}>
+					<a href="https://www.lifemethods.in/" target={"_blank"}>
 						<img src={L5} alt="logo" />
 					</a>
 				</div>
 
 				<div className="image">
-					<a to="https://www.thefuelmedia.co/" target={"_blank"}>
+					<a href="https://www.cancrie.co/" target={"_blank"}>
 						<img src={L6} alt="logo" />
 					</a>
 				</div>
-				{/* <div className="image">
+				<div className="image">
 					<a href="https://www.wallpaperworld.co.in/" target={"_blank"}>
 						<img src={L7} alt="logo" />
 					</a>
-				</div> */}
+				</div>
+			</div>
+			<div className="logo_container_landscape">
+				<div className="logo_container_upper">
+					<div className="image">
+						<a href="https://damanteperfumes.com/" target={"_blank"}>
+							<img src={L1} alt="logo" />
+						</a>
+					</div>
+
+					<div className="image">
+						<a href="#" target={"_blank"}>
+							<img src={L2} alt="logo" />
+						</a>
+					</div>
+
+					<div className="image">
+						<a href="https://www.cancrie.co/" target={"_blank"}>
+							<img src={L6} alt="logo" />
+						</a>
+					</div>
+					<div className="image">
+						<a href="https://www.wallpaperworld.co.in/" target={"_blank"}>
+							<img src={L7} alt="logo" />
+						</a>
+					</div>
+				</div>
+
+				<div className="logo_container_lower">
+					<div className="image_lower">
+						<a>
+							<img src={L5} alt="logo" />
+						</a>
+					</div>
+					<div className="image_lower">
+						<a href="https://www.lifemethods.in/" target={"_blank"}>
+							<img src={L3} alt="logo" />
+						</a>
+					</div>
+
+					<div className="image_lower">
+						<a href="https://www.thefuelmedia.co/" target={"_blank"}>
+							<img src={L4} alt="logo" />
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
