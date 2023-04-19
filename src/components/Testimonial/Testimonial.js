@@ -60,6 +60,9 @@ const Testimonial = () => {
 	const handleCardClick = (index) => {
 		swiperRef.current.slideTo(index, 300);
 	};
+	const handleLastCardClick = () => {
+		swiperRef.current.slideTo(0, 300);
+	  };
 
 	return (
 		<>
@@ -193,6 +196,27 @@ const Testimonial = () => {
 								</div>
 							</div>
 						</div>
+						<div
+              className="card swiper-slide"
+              onClick={() => handleLastCardClick()} // Add click handler for last testimonial card
+            >
+             <div className="card__content">
+								<p className="card__text">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
+									veritatis labore provident non tempora odio est sunt, ipsum
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Architecto, voluptas.
+								</p>
+								<div className="card__image">
+									<img src={img1} alt="card image" />
+									<p className="card_name">John Doe</p>
+									<p className="card_description">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									</p>
+									<p>⭐⭐⭐⭐⭐</p>
+								</div>
+							</div>
+            </div>
 					</div>
 				</section>
 				<div className="swiper-pagination"></div>
@@ -202,3 +226,4 @@ const Testimonial = () => {
 };
 
 export default Testimonial;
+
