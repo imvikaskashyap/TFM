@@ -82,10 +82,11 @@ function App() {
 				data={ServiceData}
 				toggleData={toggleServiceData}
 			/>
-			<Ourwork />
+
 			<Team />
-			<Partner />
 			<Testimonial />
+			<Ourwork />
+			<Partner />
 			<Services
 				sub={"How can we help you?"}
 				heading={"FAQs"}
