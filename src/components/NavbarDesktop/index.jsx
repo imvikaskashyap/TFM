@@ -89,18 +89,7 @@ export default () => {
 							Team
 						</div>
 					</li>
-					<li className="Navbar_Desktop__MI">
-						<div
-							className="Navbar-Desktop__menu-item"
-							onClick={() => {
-								document
-									.getElementById("testimonial")
-									.scrollIntoView({ behavior: "smooth" });
-								document.getElementById("hamburger_menu_button").click();
-							}}>
-							Testimonials
-						</div>
-					</li>
+
 					<li className="Navbar_Desktop__MI">
 						<div
 							className="Navbar-Desktop__menu-item"
@@ -123,6 +112,18 @@ export default () => {
 								document.getElementById("hamburger_menu_button").click();
 							}}>
 							Our Clientele
+						</div>
+					</li>
+					<li className="Navbar_Desktop__MI">
+						<div
+							className="Navbar-Desktop__menu-item"
+							onClick={() => {
+								document
+									.getElementById("testimonial")
+									.scrollIntoView({ behavior: "smooth" });
+								document.getElementById("hamburger_menu_button").click();
+							}}>
+							Testimonials
 						</div>
 					</li>
 				</ul>
