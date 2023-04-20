@@ -26,25 +26,27 @@ export default function index() {
 				</div>
 
 				<div className="image">
-					<a >
+					<a>
 						<img src={L2} alt="logo" />
 					</a>
 				</div>
 
 				<div className="image">
-					<a href="https://www.figma.com/file/nYOQtDQJiKdP3mWGtVfUOm/Business-Card-mockup-(The-Fuel-Media)?node-id=0-1&t=HDdcCxn0VM8cmfmh-0" target={"_blank"}>
+					<a
+						href="https://www.figma.com/file/nYOQtDQJiKdP3mWGtVfUOm/Business-Card-mockup-(The-Fuel-Media)?node-id=0-1&t=HDdcCxn0VM8cmfmh-0"
+						target={"_blank"}>
 						<img src={L3} alt="logo" />
 					</a>
 				</div>
 
 				<div className="image">
-					<a href="https://www.thefuelmedia.co/" target={"_blank"}>
+					<a>
 						<img src={L4} alt="logo" />
 					</a>
 				</div>
 
 				<div className="image">
-					<a >
+					<a>
 						<img src={L5} alt="logo" />
 					</a>
 				</div>
@@ -74,24 +76,24 @@ export default function index() {
 					</div>
 
 					<div className="image">
-						<a >
+						<a>
 							<img src={L2} alt="logo" />
 						</a>
 					</div>
 
 					<div className="image_lower">
-						<a href="https://www.figma.com/file/nYOQtDQJiKdP3mWGtVfUOm/Business-Card-mockup-(The-Fuel-Media)?node-id=0-1&t=HDdcCxn0VM8cmfmh-0" target={"_blank"}>
+						<a
+							href="https://www.figma.com/file/nYOQtDQJiKdP3mWGtVfUOm/Business-Card-mockup-(The-Fuel-Media)?node-id=0-1&t=HDdcCxn0VM8cmfmh-0"
+							target={"_blank"}>
 							<img src={L3} alt="logo" />
 						</a>
 					</div>
 
 					<div className="image_lower">
-						<a href="https://www.thefuelmedia.co/" target={"_blank"}>
+						<a>
 							<img src={L4} alt="logo" />
 						</a>
 					</div>
-
-					
 				</div>
 
 				<div className="logo_container_lower">
@@ -107,7 +109,7 @@ export default function index() {
 						</a>
 					</div>
 					<div className="image">
-						<a href="https://www.wallpaperworld.co.in/" target={"_blank"} >
+						<a href="https://www.wallpaperworld.co.in/" target={"_blank"}>
 							<img src={L7} alt="logo" />
 						</a>
 					</div>
@@ -116,10 +118,8 @@ export default function index() {
 							<img src={L8} alt="logo" />
 						</a>
 					</div>
-					
 				</div>
 			</div>
 		</div>
 	);
 }
-
