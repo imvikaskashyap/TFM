@@ -148,13 +148,13 @@ const Testimonial = () => {
 							<div className="card__content">
 								<p className="card__text">
 									I have been searching for a reliable and affordable solution
-									to my problem for months, and this company provided just
-									that.I am grateful for their excellent customer service and
+									to my problem for months, and this company provided just that.
+									I am grateful for their excellent customer service and
 									commitment to helping me.
 								</p>
 								<div className="card__image">
 									<img src={img4} alt="card image" />
-									<p className="card_name">HCDC</p>
+									<p className="card_name">Human Cell Diagnostic Center</p>
 									<p className="card_description">
 										Reliable, affordable, excellent customer service.
 									</p>
@@ -214,10 +214,9 @@ const Testimonial = () => {
 								</p>
 								<div className="card__image">
 									<img src={img8} alt="card image" />
-									<p className="card_name">Wall Paper World</p>
+									<p className="card_name">Wallpaper World</p>
 									<p className="card_description">
-										Tailored solution, exceeded expectations with expertise and
-										professionalism.
+										Tailored solution, exceeded expectations with expertise.
 									</p>
 									<p>⭐⭐⭐⭐⭐</p>
 								</div>
