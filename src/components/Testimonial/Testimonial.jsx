@@ -231,8 +231,7 @@ const Testimonial = () => {
 								<p className="card__text">
 									I had a great experience working with this company. They were
 									attentive, communicative, and helped me achieve the results I
-									was looking for. I highly recommend them to anyone looking for
-									a reliable and trustworthy partner.
+									was looking for.
 								</p>
 								<div className="card__image">
 									<img src={img7} alt="card image" />
