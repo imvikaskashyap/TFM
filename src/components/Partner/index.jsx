@@ -25,7 +25,7 @@ export default function index() {
 					</a>
 				</div>
 
-				<div className="image">
+				<div className="image2">
 					<a>
 						<img src={L2} alt="logo" />
 					</a>
@@ -75,7 +75,7 @@ export default function index() {
 						</a>
 					</div>
 
-					<div className="image">
+					<div className="image2">
 						<a>
 							<img src={L2} alt="logo" />
 						</a>

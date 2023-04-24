@@ -143,7 +143,7 @@
 
 	.card__text {
 		margin-bottom: 75px;
-		font-size: 11px;
+		font-size: 10px;
 	}
 
 	.start {
@@ -167,9 +167,18 @@
 
 	.card__text {
 		margin-bottom: 70px;
-		font-size: 13px;
+		font-size: 11px;
 	}
 	.card_description {
 		font-size: 13px;
 	}
 }
+/* @media (min-width: 767px) and (max-width: 1440px) {
+	.card__text {
+		margin-bottom: 70px;
+		font-size: 11px;
+	}
+	.card_description {
+		font-size: 13px;
+	}
+} */
