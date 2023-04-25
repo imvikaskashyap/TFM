@@ -114,7 +114,7 @@ const Testimonial = () => {
 									I recently used this company's services, and I was blown away
 									by the level of expertise and professionalism they
 									demonstrated. They listened to my needs and provided a
-									tailored solution that exceeded my expectations.
+									tailored solution.
 								</p>
 								<div className="card__image">
 									<img src={img2} alt="card image" />
