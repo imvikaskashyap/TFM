@@ -16,6 +16,7 @@ import Line from "../Line";
 const Testimonial = () => {
 	const swiperRef = useRef(null);
 	const [isSmallScreen, setIsSmallScreen] = useState(false);
+	const handleDragStart = (e) => e.preventDefault();
 
 	useEffect(() => {
 		swiperRef.current = new Swiper(".mySwiper", {
@@ -84,6 +85,7 @@ const Testimonial = () => {
 				<section className="swiper mySwiper">
 					<div className="swiper-wrapper">
 						<div
+							handleDragStart={handleDragStart}
 							className="card swiper-slide"
 							onClick={() => handleCardClick(0)}>
 							<div className="card__content">
@@ -104,6 +106,7 @@ const Testimonial = () => {
 							</div>
 						</div>
 						<div
+							handleDragStart={handleDragStart}
 							className="card swiper-slide"
 							onClick={() => handleCardClick(1)}>
 							<div className="card__content">
@@ -124,6 +127,7 @@ const Testimonial = () => {
 							</div>
 						</div>
 						<div
+							handleDragStart={handleDragStart}
 							className="card swiper-slide"
 							onClick={() => handleCardClick(2)}>
 							<div className="card__content">
@@ -143,6 +147,7 @@ const Testimonial = () => {
 							</div>
 						</div>
 						<div
+							handleDragStart={handleDragStart}
 							className="card swiper-slide"
 							onClick={() => handleCardClick(3)}>
 							<div className="card__content">
@@ -163,6 +168,7 @@ const Testimonial = () => {
 							</div>
 						</div>
 						<div
+							handleDragStart={handleDragStart}
 							className="card swiper-slide"
 							onClick={() => handleCardClick(4)}>
 							<div className="card__content">
@@ -183,6 +189,7 @@ const Testimonial = () => {
 							</div>
 						</div>
 						<div
+							handleDragStart={handleDragStart}
 							className="card swiper-slide"
 							onClick={() => handleCardClick(5)}>
 							<div className="card__content">
@@ -203,6 +210,7 @@ const Testimonial = () => {
 							</div>
 						</div>
 						<div
+							handleDragStart={handleDragStart}
 							className="card swiper-slide"
 							onClick={() => handleCardClick(6)}>
 							<div className="card__content">
@@ -224,13 +232,13 @@ const Testimonial = () => {
 						</div>
 						<div
 							className="card swiper-slide"
-							onClick={() => handleLastCardClick()} // Add click handler for last testimonial card
+							onClick={() => handleCardClick(7)} // Add click handler for last testimonial card
 						>
 							<div className="card__content">
 								<p className="card__text">
 									I had a great experience working with this company. They were
 									attentive, communicative, and helped me achieve the results I
-									was looking for.
+									was looking for. I
 								</p>
 								<div className="card__image">
 									<img src={img7} alt="card image" />
@@ -238,6 +246,27 @@ const Testimonial = () => {
 									<p className="card_description">
 										Responsive, knowledgeable, and efficient in solving
 										problems.
+									</p>
+									<p>⭐⭐⭐⭐⭐</p>
+								</div>
+							</div>
+						</div>
+						<div
+							handleDragStart={handleDragStart}
+							className="card swiper-slide"
+							onClick={() => handleLastCardClick(0)}>
+							<div className="card__content">
+								<p className="card__text">
+									I have been a customer of this company for years, and I am
+									continually impressed by their exceptional service. They
+									always go above and beyond to ensure my needs are met, and I
+									cannot recommend them enough!
+								</p>
+								<div className="card__image">
+									<img src={img1} alt="card image" />
+									<p className="card_name">Damante Perfume</p>
+									<p className="card_description">
+										Exceptional service, always goes above and beyond.
 									</p>
 									<p>⭐⭐⭐⭐⭐</p>
 								</div>
