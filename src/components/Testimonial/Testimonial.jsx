@@ -97,7 +97,7 @@ const Testimonial = () => {
 								</p>
 								<div className="card__image">
 									<img src={img1} alt="card image" />
-									<p className="card_name">Damante Perfume</p>
+									<p className="card_name">Damante Perfumes</p>
 									<p className="card_description">
 										Exceptional service, always goes above and beyond.
 									</p>
@@ -180,7 +180,7 @@ const Testimonial = () => {
 								</p>
 								<div className="card__image">
 									<img src={img5} alt="card image" />
-									<p className="card_name">Olip</p>
+									<p className="card_name">Olip Lighting</p>
 									<p className="card_description">
 										Top-notch products, unmatched customer service.
 									</p>
@@ -237,8 +237,8 @@ const Testimonial = () => {
 							<div className="card__content">
 								<p className="card__text">
 									I had a great experience working with this company. They were
-									attentive, communicative, and helped me achieve the results I
-									was looking for. I
+									attentive, communicative, and helped me achieve the results. I
+									am so glad I chose to work with this company.
 								</p>
 								<div className="card__image">
 									<img src={img7} alt="card image" />
@@ -264,7 +264,7 @@ const Testimonial = () => {
 								</p>
 								<div className="card__image">
 									<img src={img1} alt="card image" />
-									<p className="card_name">Damante Perfume</p>
+									<p className="card_name">Damante Perfumes</p>
 									<p className="card_description">
 										Exceptional service, always goes above and beyond.
 									</p>
