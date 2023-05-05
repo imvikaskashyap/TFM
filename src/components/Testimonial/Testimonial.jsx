@@ -90,10 +90,12 @@ const Testimonial = () => {
 							onClick={() => handleCardClick(0)}>
 							<div className="card__content">
 								<p className="card__text">
-									I have been a customer of this company for years, and I am
-									continually impressed by their exceptional service. They
-									always go above and beyond to ensure my needs are met, and I
-									cannot recommend them enough!
+									The Fuel Media is one of the most dedicated team with their
+									approach towards client feedback inclusion in their digital
+									approach. They are highly qualified professionals with strong
+									business management ability. We strongly believe that this
+									team has extreme potential to make it big in the industry. We
+									cannot recommend and commend them enough!
 								</p>
 								<div className="card__image">
 									<img src={img1} alt="card image" />
@@ -111,10 +113,10 @@ const Testimonial = () => {
 							onClick={() => handleCardClick(1)}>
 							<div className="card__content">
 								<p className="card__text">
-									I recently used this company's services, and I was blown away
-									by the level of expertise and professionalism they
-									demonstrated. They listened to my needs and provided a
-									tailored solution.
+									The Fuel Media has truly delivered when it comes to results.
+									Thanks to their expertise and hard work which has enabled
+									Cancrie reach new audiences, drive more engagement, and
+									ultimately see a positive impact on brand's visibility.
 								</p>
 								<div className="card__image">
 									<img src={img2} alt="card image" />
@@ -132,9 +134,11 @@ const Testimonial = () => {
 							onClick={() => handleCardClick(2)}>
 							<div className="card__content">
 								<p className="card__text">
-									Working with this company was an absolute pleasure. They were
-									professional, responsive, and delivered high-quality results.
-									I would not hesitate to recommend them to anyone.
+									We have never come across a more proactive team of young
+									professionals who are dedicated towards delivering the best
+									work to their clients. We would strongly recommend The Fuel
+									Media to anyone looking for a reliable and effective partner
+									for their designing needs.
 								</p>
 								<div className="card__image">
 									<img src={img3} alt="card image" />
@@ -152,10 +156,10 @@ const Testimonial = () => {
 							onClick={() => handleCardClick(3)}>
 							<div className="card__content">
 								<p className="card__text">
-									I have been searching for a reliable and affordable solution
-									to my problem for months, and this company provided just that.
-									I am grateful for their excellent customer service and
-									commitment to helping me.
+									We have been searching for an enthusiastic team to fulfill our
+									requirements to create a best-in-class E-commerce for our
+									brand. We are extremely grateful for their commitment to our
+									business and the timely delivery of our website solution.
 								</p>
 								<div className="card__image">
 									<img src={img4} alt="card image" />
@@ -173,10 +177,11 @@ const Testimonial = () => {
 							onClick={() => handleCardClick(4)}>
 							<div className="card__content">
 								<p className="card__text">
-									I had a problem that I couldn't solve on my own, so I decided
-									to reach out to this company for help. From start to finish,
-									they were responsive, knowledgeable, and provided excellent
-									service.
+									Being one of the leading manufacturers and retailers in our
+									industry, The Fuel Media made us realize the importance of
+									digital marketing which delivered extraordinary results in
+									terms of our revenue projection. I am extremely happy with
+									their hard work and their extravagant skills.
 								</p>
 								<div className="card__image">
 									<img src={img5} alt="card image" />
@@ -194,10 +199,12 @@ const Testimonial = () => {
 							onClick={() => handleCardClick(5)}>
 							<div className="card__content">
 								<p className="card__text">
-									The team at this company is outstanding. They are
-									knowledgeable, friendly, and always willing to go the extra
-									mile. I am so glad I chose to work with them and find a
-									solution that worked for me.
+									I would like to highlight that the team are not only great at
+									their work but are also extremely friendly and hospitable.
+									Life methods is grateful to incubate the venture with The Fuel
+									Media and has experienced great brand visibility across the
+									country. I feel obliged to commend the team for their business
+									development and technical skills.
 								</p>
 								<div className="card__image">
 									<img src={img6} alt="card image" />
@@ -215,9 +222,10 @@ const Testimonial = () => {
 							onClick={() => handleCardClick(6)}>
 							<div className="card__content">
 								<p className="card__text">
-									I have been a loyal customer of this company for years, and I
-									can honestly say they have never let me down. Their products
-									and services are top-notch, and their customer service is
+									I have been a loyal customer of The Fuel Media since their
+									establishment, and with utmost honesty I can say that they
+									have never let our expectations down. Their services and
+									solutions are top-notch, and their customer service is
 									unmatched.
 								</p>
 								<div className="card__image">
