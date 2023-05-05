@@ -116,7 +116,9 @@ const Testimonial = () => {
 									The Fuel Media has truly delivered when it comes to results.
 									Thanks to their expertise and hard work which has enabled
 									Cancrie reach new audiences, drive more engagement, and
-									ultimately see a positive impact on brand's visibility.
+									ultimately see a positive impact on brand's visibility. We've
+									seen a positive impact on our visibility thanks to The Fuel
+									Media's efforts.
 								</p>
 								<div className="card__image">
 									<img src={img2} alt="card image" />
@@ -160,6 +162,8 @@ const Testimonial = () => {
 									requirements to create a best-in-class E-commerce for our
 									brand. We are extremely grateful for their commitment to our
 									business and the timely delivery of our website solution.
+									We're thrilled with the results of our collaboration with The
+									Fuel Media.
 								</p>
 								<div className="card__image">
 									<img src={img4} alt="card image" />
@@ -226,7 +230,9 @@ const Testimonial = () => {
 									establishment, and with utmost honesty I can say that they
 									have never let our expectations down. Their services and
 									solutions are top-notch, and their customer service is
-									unmatched.
+									unmatched.Their team is always proactive in suggesting
+									innovative ideas and strategies to take our business to the
+									next level.
 								</p>
 								<div className="card__image">
 									<img src={img8} alt="card image" />
@@ -246,7 +252,10 @@ const Testimonial = () => {
 								<p className="card__text">
 									I had a great experience working with this company. They were
 									attentive, communicative, and helped me achieve the results. I
-									am so glad I chose to work with this company.
+									am so glad I chose to work with this company.I would highly
+									recommend this company to anyone looking for reliable and
+									effective services, and I look forward to working with them
+									again in the future.
 								</p>
 								<div className="card__image">
 									<img src={img7} alt="card image" />
