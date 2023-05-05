@@ -265,10 +265,12 @@ const Testimonial = () => {
 							onClick={() => handleLastCardClick(0)}>
 							<div className="card__content">
 								<p className="card__text">
-									I have been a customer of this company for years, and I am
-									continually impressed by their exceptional service. They
-									always go above and beyond to ensure my needs are met, and I
-									cannot recommend them enough!
+									The Fuel Media is one of the most dedicated team with their
+									approach towards client feedback inclusion in their digital
+									approach. They are highly qualified professionals with strong
+									business management ability. We strongly believe that this
+									team has extreme potential to make it big in the industry. We
+									cannot recommend and commend them enough!
 								</p>
 								<div className="card__image">
 									<img src={img1} alt="card image" />
