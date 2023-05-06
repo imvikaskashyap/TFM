@@ -124,7 +124,7 @@ const Testimonial = () => {
 									<img src={img2} alt="card image" />
 									<p className="card_name">Cancrie</p>
 									<p className="card_description">
-										Outstanding team, knowledgeable, and friendly.
+										Outstanding team, knowledgeable and friendly.
 									</p>
 									<p className="start">⭐⭐⭐⭐⭐</p>
 								</div>
@@ -146,7 +146,7 @@ const Testimonial = () => {
 									<img src={img3} alt="card image" />
 									<p className="card_name">White Sands</p>
 									<p className="card_description">
-										Professional, responsive, and high-quality results.
+										Professional, responsive and high-quality results.
 									</p>
 									<p>⭐⭐⭐⭐⭐</p>
 								</div>
@@ -169,7 +169,7 @@ const Testimonial = () => {
 									<img src={img4} alt="card image" />
 									<p className="card_name">Human Cell Diagnostic Center</p>
 									<p className="card_description">
-										Reliable, affordable, excellent customer service.
+										Reliable, affordable and excellent customer service.
 									</p>
 									<p>⭐⭐⭐⭐⭐</p>
 								</div>
@@ -214,7 +214,7 @@ const Testimonial = () => {
 									<img src={img6} alt="card image" />
 									<p className="card_name">Life Methods</p>
 									<p className="card_description">
-										Attentive, communicative, and achieved desired results.
+										Attentive, communicative and achieved desired results.
 									</p>
 									<p>⭐⭐⭐⭐⭐</p>
 								</div>
@@ -261,8 +261,7 @@ const Testimonial = () => {
 									<img src={img7} alt="card image" />
 									<p className="card_name">S2 Wheels</p>
 									<p className="card_description">
-										Responsive, knowledgeable, and efficient in solving
-										problems.
+										Responsive, knowledgeable and efficient in solving problems.
 									</p>
 									<p>⭐⭐⭐⭐⭐</p>
 								</div>
