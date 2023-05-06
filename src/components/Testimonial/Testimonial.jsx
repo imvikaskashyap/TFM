@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import Swiper from "swiper";
 import "swiper/swiper-bundle.min.css";
 import "./Testimonial.css";
-// import "../Testimonial/TestiMonials/TestiMonials.css";
+
 import img1 from "../../assets/partner_logo/Damante_Perfumes_Logo-removebg-preview (1).png";
 import img2 from "../../assets/partner_logo/Etsy Profile Image.png";
 import img3 from "../../assets/partner_logo/Logo_designs__1_-removebg-preview.png";
@@ -71,7 +71,9 @@ const Testimonial = () => {
 	const handleLastCardClick = () => {
 		swiperRef.current.slideTo(0, 300);
 	};
-
+	const handleFirstCardClick = () => {
+		swiperRef.current.slideTo(swiperRef.current.slides.length - 1, 300);
+	};
 	return (
 		<>
 			<div id="testimonial">
@@ -87,7 +89,30 @@ const Testimonial = () => {
 						<div
 							handleDragStart={handleDragStart}
 							className="card swiper-slide"
-							onClick={() => handleCardClick(0)}>
+							onClick={() => handleFirstCardClick()}>
+							<div className="card__content">
+								<p className="card__text">
+									I had a great experience working with this company. They were
+									attentive, communicative, and helped me achieve the results. I
+									am so glad I chose to work with this company. I would highly
+									recommend this company to anyone looking for reliable and
+									effective services, and I look forward to working with them
+									again in the future.
+								</p>
+								<div className="card__image">
+									<img src={img7} alt="card image" />
+									<p className="card_name">S2 Wheels</p>
+									<p className="card_description">
+										Responsive, knowledgeable and efficient in solving problems.
+									</p>
+									<p>⭐⭐⭐⭐⭐</p>
+								</div>
+							</div>
+						</div>
+						<div
+							handleDragStart={handleDragStart}
+							className="card swiper-slide"
+							onClick={() => handleCardClick(1)}>
 							<div className="card__content">
 								<p className="card__text">
 									The Fuel Media is one of the most dedicated team with their
@@ -110,7 +135,7 @@ const Testimonial = () => {
 						<div
 							handleDragStart={handleDragStart}
 							className="card swiper-slide"
-							onClick={() => handleCardClick(1)}>
+							onClick={() => handleCardClick(2)}>
 							<div className="card__content">
 								<p className="card__text">
 									The Fuel Media has truly delivered when it comes to results.
@@ -130,10 +155,11 @@ const Testimonial = () => {
 								</div>
 							</div>
 						</div>
+
 						<div
 							handleDragStart={handleDragStart}
 							className="card swiper-slide"
-							onClick={() => handleCardClick(2)}>
+							onClick={() => handleCardClick(3)}>
 							<div className="card__content">
 								<p className="card__text">
 									We have never come across a more proactive team of young
@@ -155,7 +181,7 @@ const Testimonial = () => {
 						<div
 							handleDragStart={handleDragStart}
 							className="card swiper-slide"
-							onClick={() => handleCardClick(3)}>
+							onClick={() => handleCardClick(4)}>
 							<div className="card__content">
 								<p className="card__text">
 									We have been searching for an enthusiastic team to fulfill our
@@ -178,7 +204,7 @@ const Testimonial = () => {
 						<div
 							handleDragStart={handleDragStart}
 							className="card swiper-slide"
-							onClick={() => handleCardClick(4)}>
+							onClick={() => handleCardClick(5)}>
 							<div className="card__content">
 								<p className="card__text">
 									Being one of the leading manufacturers and retailers in our
@@ -200,7 +226,7 @@ const Testimonial = () => {
 						<div
 							handleDragStart={handleDragStart}
 							className="card swiper-slide"
-							onClick={() => handleCardClick(5)}>
+							onClick={() => handleCardClick(6)}>
 							<div className="card__content">
 								<p className="card__text">
 									I would like to highlight that the team are not only great at
@@ -223,7 +249,7 @@ const Testimonial = () => {
 						<div
 							handleDragStart={handleDragStart}
 							className="card swiper-slide"
-							onClick={() => handleCardClick(6)}>
+							onClick={() => handleCardClick(7)}>
 							<div className="card__content">
 								<p className="card__text">
 									I have been a loyal customer of The Fuel Media since their
@@ -246,7 +272,7 @@ const Testimonial = () => {
 						</div>
 						<div
 							className="card swiper-slide"
-							onClick={() => handleCardClick(7)} // Add click handler for last testimonial card
+							onClick={() => handleCardClick(8)} // Add click handler for last testimonial card
 						>
 							<div className="card__content">
 								<p className="card__text">
