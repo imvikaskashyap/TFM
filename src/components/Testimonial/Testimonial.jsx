@@ -122,7 +122,7 @@ const Testimonial = () => {
 								</p>
 								<div className="card__image">
 									<img src={img2} alt="card image" />
-									<p className="card_name">Concrie</p>
+									<p className="card_name">Cancrie</p>
 									<p className="card_description">
 										Outstanding team, knowledgeable, and friendly.
 									</p>
@@ -230,7 +230,7 @@ const Testimonial = () => {
 									establishment, and with utmost honesty I can say that they
 									have never let our expectations down. Their services and
 									solutions are top-notch, and their customer service is
-									unmatched.Their team is always proactive in suggesting
+									unmatched. Their team is always proactive in suggesting
 									innovative ideas and strategies to take our business to the
 									next level.
 								</p>
@@ -252,7 +252,7 @@ const Testimonial = () => {
 								<p className="card__text">
 									I had a great experience working with this company. They were
 									attentive, communicative, and helped me achieve the results. I
-									am so glad I chose to work with this company.I would highly
+									am so glad I chose to work with this company. I would highly
 									recommend this company to anyone looking for reliable and
 									effective services, and I look forward to working with them
 									again in the future.
